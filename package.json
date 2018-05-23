@@ -1,0 +1,22 @@
+{
+  "name": "gdax-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gdax": "babel-node src",
+    "binance": "babel-node 'src/binance.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gdax": "^0.8.0",
+    "superagent": "^3.8.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
