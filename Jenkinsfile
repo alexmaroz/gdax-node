@@ -1,12 +1,7 @@
 pipeline {
-  agent {
-    node {
-      label 'starting'
-    }
-
-  }
+  agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
         git(url: 'https://github.com/alexmaroz/gdax-node.git', branch: 'master')
       }
